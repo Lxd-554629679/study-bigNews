@@ -1,3 +1,4 @@
+//使用一个沙箱模式
 ;(function(w){
     //声明一个局部变量,记录基地址
     var baseURL = 'http://localhost:8080/api/v1'
@@ -26,4 +27,5 @@
 
     //暴露接口
     w.BigNew = BigNew;
+
 }(window));
